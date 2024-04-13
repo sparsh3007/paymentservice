@@ -1,5 +1,9 @@
 package org.scaler.paymentservice.services;
 
+import com.razorpay.RazorpayException;
+import org.springframework.stereotype.Service;
+
+@Service
 public class PaymentService {
     PaymentGatewayChooserStrategy paymentGatewayChooserStrategy;
 
